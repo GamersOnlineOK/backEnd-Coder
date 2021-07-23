@@ -30,4 +30,6 @@ class Usuario {
 let usuario = new Usuario('Leonardo', 'De Los Santos', [({petName:"Lila",pet:"Gato"})], [({ nombre: "El arte de la guerra", autor: "Sun Tzu" })]);
 
 
-
+console.log(usuario);
+usuario.addMascota("pancho","perro");
+console.log(usuario);
