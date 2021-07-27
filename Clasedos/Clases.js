@@ -15,7 +15,7 @@ class Usuario {
     }
 
     getMascotas = () => {
-        return this.mascotas.length;
+        return this.pet.length;
     }
 
     addBook = (book, autor) => {
@@ -27,9 +27,9 @@ class Usuario {
     }
 }
 
-let usuario = new Usuario('Leonardo', 'De Los Santos', [({petName:"Lila",pet:"Gato"})], [({ nombre: "El arte de la guerra", autor: "Sun Tzu" })]);
+let usuarioC = new Usuario('Leonardo', 'De Los Santos', [({petName:"Lila",pet:"Gato"})], [({ nombre: "El arte de la guerra", autor: "Sun Tzu" })]);
 
 
-console.log(usuario);
-usuario.addMascota("pancho","perro");
-console.log(usuario);
+console.log(usuarioC);
+usuarioC.addMascota("pancho","perro");
+console.log(usuarioC);
